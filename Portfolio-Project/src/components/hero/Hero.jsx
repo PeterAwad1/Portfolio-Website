@@ -2,7 +2,7 @@ import { TypeAnimation } from "react-type-animation";
 import Img1 from "./../../../public/After X2 Enh (1) After Resize.png";
 function Hero() {
   return (
-    <div className="container">
+    <div className="container" id="Hero-Section">
       <div className="grid grid-cols-1 md:grid-cols-3 md:h-[70vh] gap-10 my-10 items-center justify-center">
         <div className="col-span-1 m-auto h-auto lg:w-[400px] w-[300px]">
           <img src={Img1} alt="Hero Image" />
@@ -20,7 +20,7 @@ function Hero() {
               speed={50}
             />
           </h1>
-          <p className="text-white my-6 lg:text-lg">
+          <p className="text-white my-6 lg:text-lg text-center md:text-start">
             My name is Peter Awad and i have 6+ months experience in web
             development
           </p>
