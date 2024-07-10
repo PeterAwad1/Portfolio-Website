@@ -4,9 +4,6 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      colors: {
-        primerColor: "bg-gradient-to-r  from-slate-800 to-black",
-      },
       container: {
         center: true,
         padding: {

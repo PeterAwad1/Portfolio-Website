@@ -1,10 +1,10 @@
 import ImgAbout from "./../../assets/about.jpg";
 function About() {
   return (
-    <div className="container mt-20" id="About-Section">
+    <div className="container mt-32" id="About-Section">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[100px]">
         <div className="text-center md:text-start">
-          <h1 className="bg-gradient-to-r from-red-600 to-yellow-200 bg-clip-text text-transparent text-3xl font-extrabold">
+          <h1 className="bg-gradient-to-r from-red-600 to-yellow-200 bg-clip-text text-transparent text-4xl font-extrabold">
             About me
           </h1>
           <p className="text-white mt-5">
@@ -18,11 +18,14 @@ function About() {
             web solutions and eager to contribute to innovative projects.
           </p>
         </div>
-        <div className="flex justify-center items-center">
+        <div className="flex justify-center items-center ">
           <img
+            data-aos="fade"
+            data-aos-offset="0"
+            data-aos-duration="500"
             src={ImgAbout}
             alt="About Image"
-            className="w-[300px] h-[300px] rounded-lg"
+            className="w-[300px] h-[300px] rounded-lg drop-shadow-[0px_0px_50px_rgba(200,10,10,0.875)]"
           />
         </div>
       </div>
